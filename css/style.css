@@ -1,0 +1,136 @@
+.header-logo {
+    width: 70px;
+    height: 50px;
+    /* margin-right: 410px; */
+}
+
+.navbar-toggler {
+    /* background-color: blue; */
+    font-size: 12px;
+}
+
+.social-icons {
+    color: blue;
+    word-spacing: 10px;
+    margin-left: 500px;
+}
+
+.header{
+    margin: 50px 0;
+    background-image: linear-gradient(rgba(39, 39, 92, 0.8), rgba(16, 48, 6, 0.7)),url('../assets/cssaLogo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    padding: 20px;
+    
+}
+
+.header h1{
+    text-align: center;
+    font-size: 5rem;
+    color: #fff;
+}
+
+.header a{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+    width: 100px;
+    padding: 7px;
+    border-radius: 2px;
+    margin: auto;
+}
+
+.commandantMsg .row{
+    background-color: rgb(252, 247, 247);
+    width: 100%;
+    padding:16px;
+}
+
+.commandantImg{
+    width: 50%;
+    height: 380px;
+    margin: 0 auto;
+    display: block;
+}
+.commandantMsg .row{
+    line-height: 3.5;
+    font-style: italic;
+}
+.commandantMsg .row h2{
+    text-align: center;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.statements .row{
+    text-align: center;
+    width: 100%;
+    margin: 40px auto;
+}
+
+.statements h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+.statements p{
+    text-align: left;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.latest-news{
+    background-color: rgb(252, 247, 247);
+}
+
+.latest-news h3{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase; 
+    font-size: 30px;
+    padding: 20px;
+}
+
+.latest-news .carousel-item .d-block{
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.latest-news .carousel-item h5, .carousel-item p{
+    color: rgb(255, 254, 254);
+}
+
+.contact{
+    margin-top: 50px;
+    padding: 20px;
+    background-color: pink;
+}
+
+@media screen and (max-width: 780px){
+    .social-icons{
+        margin: 0;
+    }
+
+    .header h1{
+        text-align: left;
+    }
+
+    .header a{
+        margin-right: auto;
+    }
+
+    .commandantImg{
+        width: 350px;
+    }
+    .statements p{
+        text-align: center;
+    }
+
+    .contact .container .row{
+        text-align: center;
+    }
+}
