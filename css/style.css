@@ -1,136 +1,197 @@
+nav.navbar-light{
+    background-color: #00FFC3;
+}
+
 .header-logo {
     width: 70px;
-    height: 50px;
-    /* margin-right: 410px; */
+    height: 60px;
 }
 
 .navbar-toggler {
-    /* background-color: blue; */
     font-size: 12px;
 }
 
-.social-icons {
+nav .social-icons {
     color: blue;
     word-spacing: 10px;
     margin-left: 500px;
 }
 
-.header{
-    margin: 50px 0;
-    background-image: linear-gradient(rgba(39, 39, 92, 0.8), rgba(16, 48, 6, 0.7)),url('../assets/cssaLogo.jpeg');
+.header {
+    /* margin: 50px 0; */
+    background-image: linear-gradient(to bottom right, rgba(0, 2, 0, 0.8), rgba(68, 0, 255, 0.5)), url('../assets/CSSAQuaterguard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     padding: 20px;
-    
+
 }
 
-.header h1{
+.header h1 {
     text-align: center;
     font-size: 5rem;
     color: #fff;
+    font-family: railwayBold;
 }
 
-.header a{
+.header a {
     text-decoration: none;
     background-color: #fff;
     color: #000;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: railwayLight;
     display: block;
-    width: 100px;
-    padding: 7px;
+    width: 110px;
+    padding: 6px;
     border-radius: 2px;
     margin: auto;
+    text-align: center;
 }
 
-.commandantMsg .row{
-    background-color: rgb(252, 247, 247);
+.commandantMsg {
+    background-color: #5059db;
     width: 100%;
-    padding:16px;
+    padding: 16px;
 }
 
-.commandantImg{
+.commandantImg {
     width: 50%;
     height: 380px;
     margin: 0 auto;
     display: block;
 }
-.commandantMsg .row{
+
+.commandantMsg .row {
     line-height: 3.5;
-    font-style: italic;
-}
-.commandantMsg .row h2{
-    text-align: center;
-    font-size: 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.statements .row{
+.commandantMsg .row h2 {
+    /* text-align: center; */
+    font-size: 33px;
+    font-family: railwaysemi;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.statements .row {
     text-align: center;
     width: 100%;
     margin: 40px auto;
 }
 
-.statements h3{
+.commandantMsg .row .col-lg-6 p {
+    font-style: italic;
+}
+
+.statements h3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     font-weight: bold;
 }
-.statements p{
+
+.statements p {
     text-align: left;
     padding: 15px;
     margin: 10px auto;
 }
 
-.latest-news{
-    background-color: rgb(252, 247, 247);
+.latest-news .container-fluid {
+    background-color: #f6f5f8c9;
+    padding: 40px;
 }
 
-.latest-news h3{
+.latest-news h3 {
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase; 
+    text-transform: uppercase;
     font-size: 30px;
     padding: 20px;
 }
 
-.latest-news .carousel-item .d-block{
+.latest-news .carousel-item .d-block {
     height: 400px;
-    width: 90%;
+    width: 98%;
     margin: 0 auto;
+    border-radius: 10px;
 }
 
-.latest-news .carousel-item h5, .carousel-item p{
+.latest-news .carousel-item h5,
+.carousel-item p {
     color: rgb(255, 254, 254);
 }
 
-.contact{
+.contact {
     margin-top: 50px;
     padding: 20px;
-    background-color: pink;
 }
 
-@media screen and (max-width: 780px){
-    .social-icons{
-        margin: 0;
-    }
+ .footer-logo {
+    width: 100px;
+    height: 90px;
+    /* margin-right: 433px; */
+}
 
-    .header h1{
+footer li.social-icons { 
+    margin-left: auto;
+    color: blue;
+}
+
+.footer p{
+    text-align: center;
+}
+
+@font-face {
+    font-family: railwaySemi;
+    src: url(../fonts/Raleway/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: railwayBold;
+    src: url(../fonts/Raleway/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: railwayLight;
+    src: url(../fonts/Raleway/Raleway-Light.ttf);
+}
+
+
+@media screen and (max-width: 780px) {
+    /* .footer .social-icons {
+        margin: 0 auto;
+    } */
+
+    .header h1 {
         text-align: left;
+        font-size: 2rem;
     }
 
-    .header a{
+    .header a {
         margin-right: auto;
     }
 
-    .commandantImg{
+    .commandantImg {
         width: 350px;
     }
-    .statements p{
+
+    .statements p {
         text-align: center;
     }
 
-    .contact .container .row{
+    .contact .container .row {
         text-align: center;
     }
+
+/* .footer .footer-logo{
+    text-align: center;
+    margin: 0;
+}
+    .footer ul li {
+        text-align: center;
+    }
+
+    
+
+    footer p {
+        text-align: center;
+    } */
 }
