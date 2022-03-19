@@ -1,5 +1,5 @@
 nav.navbar-light{
-    background-color: #00FFC3;
+    background-color: #F8F1F1;
 }
 
 .header-logo {
@@ -19,7 +19,7 @@ nav .social-icons {
 
 .header {
     /* margin: 50px 0; */
-    background-image: linear-gradient(to bottom right, rgba(0, 2, 0, 0.8), rgba(68, 0, 255, 0.5)), url('../assets/CSSAQuaterguard.jpg');
+    background-image: linear-gradient(to bottom right, rgba(0, 2, 0, 0.8), rgba(17, 105, 142, 0.5)), url('../assets/CSSAQuaterguard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -48,7 +48,7 @@ nav .social-icons {
 }
 
 .commandantMsg {
-    background-color: #5059db;
+    background-color: #19456B;
     width: 100%;
     padding: 16px;
 }
@@ -124,6 +124,10 @@ nav .social-icons {
     padding: 20px;
 }
 
+footer{
+    background-color: #16C79A
+}
+
  .footer-logo {
     width: 100px;
     height: 90px;
@@ -136,6 +140,7 @@ footer li.social-icons {
 }
 
 .footer p{
+    background-color: #140303
     text-align: center;
 }
 
