@@ -1,4 +1,4 @@
-nav.navbar-light{
+nav.navbar-light {
     background-color: #F8F1F1;
 }
 
@@ -18,7 +18,6 @@ nav .social-icons {
 }
 
 .header {
-    /* margin: 50px 0; */
     background-image: linear-gradient(to bottom right, rgba(0, 2, 0, 0.8), rgba(17, 105, 142, 0.5)), url('../assets/CSSAQuaterguard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -55,6 +54,8 @@ nav .social-icons {
     width: 50%;
     height: 380px;
     margin: 0 auto;
+    box-shadow: 5px 8px 3px #888888;
+    border-radius: 2px;
     display: block;
 }
 
@@ -66,8 +67,7 @@ nav .social-icons {
 }
 
 .commandantMsg .row h2 {
-    /* text-align: center; */
-    font-size: 33px;
+    font-size: 30px;
     font-family: railwaysemi;
     font-weight: bolder;
     text-transform: uppercase;
@@ -125,24 +125,27 @@ nav .social-icons {
     padding: 20px;
 }
 
-footer{
+footer {
     background-color: #16C79A
 }
 
- .footer-logo {
+.footer-logo {
     width: 100px;
     height: 90px;
     /* margin-right: 433px; */
 }
 
-footer li.social-icons { 
+footer li.social-icons {
     margin-left: auto;
     color: blue;
 }
 
-.footer p{
+.footer p {
     background-color: #140303;
     text-align: center;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 0;
 }
 
 @font-face {
@@ -175,7 +178,7 @@ footer li.social-icons {
         margin-right: auto;
     }
 
-    .commandantMsg .row h2{
+    .commandantMsg .row h2 {
         font-size: 25px;
         text-align: center;
         margin-top: 30px;
@@ -194,7 +197,7 @@ footer li.social-icons {
         text-align: center;
     }
 
-/* .footer .footer-logo{
+    /* .footer .footer-logo{
     text-align: center;
     margin: 0;
 }
