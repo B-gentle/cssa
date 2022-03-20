@@ -79,14 +79,14 @@ nav .social-icons {
     text-transform: uppercase;
 }
 
+.commandantMsg .row .col-lg-6 p {
+    font-style: italic;
+}
+
 .statements .row {
     text-align: center;
     width: 100%;
     margin: 40px auto;
-}
-
-.commandantMsg .row .col-lg-6 p {
-    font-style: italic;
 }
 
 .statements h3 {
@@ -99,6 +99,18 @@ nav .social-icons {
     text-align: left;
     padding: 15px;
     margin: 10px auto;
+}
+
+.anthem{
+    padding: auto;
+}
+
+.anthem h3{
+    text-align: center;
+}
+.anthem p{
+    text-align: center;
+    margin: auto;
 }
 
 .latest-news .container-fluid {
