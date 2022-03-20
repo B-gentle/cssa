@@ -1,5 +1,11 @@
 nav.navbar-light {
-    background-color: #2C2891;
+    background-color: #16C79A;
+    
+}
+
+ul.navbar-nav li a{
+    font-size: 1.2rem;
+    color: #000!important
 }
 
 .header-logo {
@@ -12,7 +18,7 @@ nav.navbar-light {
 }
 
 nav .social-icons {
-    color: white;
+    color: blue;
     word-spacing: 10px;
     margin-left: 500px;
 }
@@ -47,14 +53,14 @@ nav .social-icons {
 }
 
 .commandantMsg {
-    background-color: #E7D9EA;
+    background-color: #EFFAD3;
 }
 
 .commandantImg {
     width: 50%;
     height: 380px;
     margin: 0 auto;
-    box-shadow: 5px 8px 3px #888888;
+    box-shadow: 3px 3px 2px #888888;
     border-radius: 2px;
     display: block;
 }
@@ -96,7 +102,7 @@ nav .social-icons {
 }
 
 .latest-news .container-fluid {
-    background-color: #f6f5f8c9;
+    background-color: #EFFAD3;
     padding: 40px;
 }
 
