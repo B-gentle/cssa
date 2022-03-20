@@ -1,5 +1,5 @@
 nav.navbar-light {
-    background-color: #F8F1F1;
+    background-color: #2C2891;
 }
 
 .header-logo {
@@ -12,7 +12,7 @@ nav.navbar-light {
 }
 
 nav .social-icons {
-    color: blue;
+    color: white;
     word-spacing: 10px;
     margin-left: 500px;
 }
@@ -132,11 +132,14 @@ footer {
 .footer-logo {
     width: 100px;
     height: 90px;
-    /* margin-right: 433px; */
+}
+
+footer ul{
+    margin-left: auto;
 }
 
 footer li.social-icons {
-    margin-left: auto;
+    margin-left: 500px;
     color: blue;
 }
 
@@ -165,9 +168,9 @@ footer li.social-icons {
 
 
 @media screen and (max-width: 780px) {
-    /* .footer .social-icons {
-        margin: 0 auto;
-    } */
+    nav .social-icons{
+        margin-left: 0;
+    }
 
     .header h1 {
         text-align: left;
@@ -197,17 +200,13 @@ footer li.social-icons {
         text-align: center;
     }
 
-    /* .footer .footer-logo{
-    text-align: center;
-    margin: 0;
-}
-    .footer ul li {
-        text-align: center;
+    ul li.social-icons{
+        margin-left: 0;
     }
 
-    
-
-    footer p {
+    .footer ul, .footer a {
+        display: block;
+        margin: auto;
         text-align: center;
-    } */
+    }
 }
