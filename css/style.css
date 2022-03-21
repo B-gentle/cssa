@@ -5,7 +5,8 @@ nav.navbar-light {
 
 ul.navbar-nav li a{
     font-size: 1.2rem;
-    color: #000!important
+    color: #000!important;
+    font-family: railwaysemi;
 }
 
 .header-logo {
@@ -24,12 +25,12 @@ nav .social-icons {
 }
 
 .header {
-    background-image: linear-gradient(to bottom right, rgba(0, 2, 0, 0.8), rgba(17, 105, 142, 0.5)), url('../assets/CSSAQuaterguard.jpg');
+    background-image: linear-gradient(to bottom right, rgba(17, 105, 142, 0.8), rgb(248, 248, 241, 0.6)), url('../assets/CSSAQuaterguard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     padding: 20px;
-
+ 
 }
 
 .header h1 {
@@ -60,7 +61,7 @@ nav .social-icons {
     width: 50%;
     height: 380px;
     margin: 0 auto;
-    box-shadow: 3px 3px 2px #888888;
+    box-shadow: 3px 3px 7px #888888;
     border-radius: 2px;
     display: block;
 }
@@ -74,7 +75,7 @@ nav .social-icons {
 
 .commandantMsg .row h2 {
     font-size: 30px;
-    font-family: railwaysemi;
+    font-family: railwaybold;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -107,6 +108,7 @@ nav .social-icons {
 
 .anthem h3{
     text-align: center;
+    font-family: railwaySemi;
 }
 .anthem p{
     text-align: center;
@@ -120,8 +122,7 @@ nav .social-icons {
 
 .latest-news h3 {
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
+    font-family: railwaysemi;
     font-size: 30px;
     padding: 20px;
 }
@@ -141,6 +142,7 @@ nav .social-icons {
 .contact {
     margin-top: 50px;
     padding: 20px;
+    font-family: railwaybold
 }
 
 footer {
