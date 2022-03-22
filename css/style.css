@@ -15,8 +15,14 @@ ul.navbar-nav li a{
 }
 
 .navbar-toggler {
-    font-size: 12px;
+    font-size: 1.2rem;
+    border: none;
 }
+
+.navbar-toggler:active{
+    border: none;
+}
+
 
 nav .social-icons {
     color: blue;
@@ -25,7 +31,7 @@ nav .social-icons {
 }
 
 .header {
-    background-image: linear-gradient(rgba(17, 105, 142, 0.8), rgb(248, 248, 241, 0.3)), url('../assets/CSSAQuaterguard.jpg');
+    background-image: linear-gradient(to bottom right,rgba(5, 5, 5, 0.5), rgba(17, 105, 142, 0.8)), url('../assets/CSSAQuaterguard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
@@ -42,9 +48,9 @@ nav .social-icons {
 
 .header a {
     text-decoration: none;
-    background-color: #fff;
-    color: #000;
-    font-family: railwayLight;
+    background-color: #16C79A;
+    color: #fff;
+    font-family: railwaysemi;
     display: block;
     width: 110px;
     padding: 6px;
@@ -54,7 +60,7 @@ nav .social-icons {
 }
 
 .commandantMsg {
-    background-color: #e8e8fd;
+    background-color: #FFFAA4;
 }
 
 .commandantImg {
@@ -99,7 +105,7 @@ nav .social-icons {
 .statements p {
     text-align: left;
     padding: 15px;
-    margin: 10px auto;
+    margin: 15px auto;
 }
 
 .anthem{
@@ -112,11 +118,12 @@ nav .social-icons {
 }
 .anthem p{
     text-align: center;
-    margin: auto;
+    margin: 18px auto;
+    font-family: anthem;
 }
 
 .latest-news .container-fluid {
-    background-color: #e8e8fd;
+    background-color: #FFFAA4;
     padding: 40px;
 }
 
@@ -142,11 +149,11 @@ nav .social-icons {
 .contact {
     margin-top: 50px;
     padding: 20px;
-    font-family: railwaybold
+    font-family: railwaybold;
 }
 
 footer {
-    background-color: #16C79A
+    background-color: #16C79A;
 }
 
 .footer-logo {
@@ -186,6 +193,11 @@ footer li.social-icons {
     src: url(../fonts/Raleway/Raleway-Light.ttf);
 }
 
+@font-face{
+    font-family: anthem;
+    src: url(../fonts/Raleway/Raleway-Medium.ttf);
+}
+
 
 @media screen and (max-width: 780px) {
     nav .social-icons{
@@ -199,6 +211,10 @@ footer li.social-icons {
 
     .header a {
         margin-right: auto;
+    }
+
+    .commandantMsg .row{
+        line-height: 2.5;
     }
 
     .commandantMsg .row h2 {
