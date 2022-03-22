@@ -1,11 +1,11 @@
 nav.navbar-light {
     background-color: #16C79A;
-    
+
 }
 
-ul.navbar-nav li a{
+ul.navbar-nav li a {
     font-size: 1.2rem;
-    color: #000!important;
+    color: #000 !important;
     font-family: railwaysemi;
 }
 
@@ -19,7 +19,7 @@ ul.navbar-nav li a{
     border: none;
 }
 
-.navbar-toggler:active{
+.navbar-toggler:active {
     border: none;
 }
 
@@ -31,12 +31,12 @@ nav .social-icons {
 }
 
 .header {
-    background-image: linear-gradient(to bottom right,rgba(5, 5, 5, 0.5), rgba(17, 105, 142, 0.8)), url('../assets/CSSAQuaterguard.jpg');
+    background-image: linear-gradient(to bottom right, rgba(5, 5, 5, 0.5), rgba(17, 105, 142, 0.8)), url('../assets/CSSAQuaterguard.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     padding: 20px;
- 
+
 }
 
 .header h1 {
@@ -57,10 +57,6 @@ nav .social-icons {
     border-radius: 2px;
     margin: auto;
     text-align: center;
-}
-
-.commandantMsg {
-    background-color: #FFFAA4;
 }
 
 .commandantImg {
@@ -90,13 +86,18 @@ nav .social-icons {
     font-style: italic;
 }
 
-.statements .row {
+.statements-anthem{
+    background-color: #21AA93;
+    padding: 10px;
+    margin: auto;
+}
+
+.statements-anthem .row {
     text-align: center;
-    width: 100%;
     margin: 40px auto;
 }
 
-.statements h3 {
+.statements-anthem h3 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     font-weight: bold;
@@ -108,22 +109,23 @@ nav .social-icons {
     margin: 15px auto;
 }
 
-.anthem{
+.anthem {
     padding: auto;
+    background-color: #21AA93;
 }
 
-.anthem h3{
+.anthem h3 {
+    margin-top: 20px;
     text-align: center;
-    font-family: railwaySemi;
 }
-.anthem p{
+
+.anthem p {
     text-align: center;
     margin: 18px auto;
     font-family: anthem;
 }
 
 .latest-news .container-fluid {
-    background-color: #FFFAA4;
     padding: 40px;
 }
 
@@ -161,7 +163,7 @@ footer {
     height: 90px;
 }
 
-footer ul{
+footer ul {
     margin-left: auto;
 }
 
@@ -193,14 +195,14 @@ footer li.social-icons {
     src: url(../fonts/Raleway/Raleway-Light.ttf);
 }
 
-@font-face{
+@font-face {
     font-family: anthem;
     src: url(../fonts/Raleway/Raleway-Medium.ttf);
 }
 
 
 @media screen and (max-width: 780px) {
-    nav .social-icons{
+    nav .social-icons {
         margin-left: 0;
     }
 
@@ -213,7 +215,7 @@ footer li.social-icons {
         margin-right: auto;
     }
 
-    .commandantMsg .row{
+    .commandantMsg .row {
         line-height: 2.5;
     }
 
@@ -236,11 +238,12 @@ footer li.social-icons {
         text-align: center;
     }
 
-    ul li.social-icons{
+    ul li.social-icons {
         margin-left: 0;
     }
 
-    .footer ul, .footer a {
+    .footer ul,
+    .footer a {
         display: block;
         margin: auto;
         text-align: center;
