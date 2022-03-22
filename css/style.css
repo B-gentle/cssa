@@ -92,7 +92,7 @@ nav .social-icons {
     margin: auto;
 }
 
-.statements-anthem .row {
+.statements-anthem .row .col-lg-5{
     text-align: center;
     margin: 40px auto;
 }
@@ -152,6 +152,11 @@ nav .social-icons {
     margin-top: 50px;
     padding: 20px;
     font-family: railwaybold;
+}
+
+.contact .col-lg-4{
+    margin: auto;
+    text-align: center;
 }
 
 footer {
