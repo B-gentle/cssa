@@ -19,10 +19,6 @@ ul.navbar-nav li a {
     border: none;
 }
 
-.navbar-toggler i{
-    transition: 0.4s;
-}
-
 .navbar-toggler:focus {
     box-shadow: none;
 }
