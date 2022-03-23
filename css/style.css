@@ -15,12 +15,16 @@ ul.navbar-nav li a {
 }
 
 .navbar-toggler {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     border: none;
 }
 
-.navbar-toggler:active {
-    border: none;
+.navbar-toggler i{
+    transition: 0.4s;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
 }
 
 
@@ -86,14 +90,14 @@ nav .social-icons {
     font-style: italic;
 }
 
-.statements-anthem{
+.statements-anthem {
     background-color: #21AA93;
     padding: 10px;
     margin: auto;
     color: #E7D9EA;
 }
 
-.statements-anthem .row .col-lg-5{
+.statements-anthem .row .col-lg-5 {
     text-align: center;
     margin: 40px auto;
 }
@@ -155,7 +159,7 @@ nav .social-icons {
     font-family: railwaybold;
 }
 
-.contact .col-lg-4{
+.contact .col-lg-4 {
     margin: auto;
     text-align: center;
 }
