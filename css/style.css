@@ -1,6 +1,5 @@
 nav.navbar-light {
     background-color: #16C79A;
-
 }
 
 ul.navbar-nav li a {
@@ -23,7 +22,6 @@ ul.navbar-nav li a {
     box-shadow: none;
 }
 
-
 nav .social-icons {
     color: blue;
     word-spacing: 10px;
@@ -36,7 +34,6 @@ nav .social-icons {
     background-repeat: no-repeat;
     background-position: top;
     padding: 20px;
-
 }
 
 .header h1 {
@@ -137,9 +134,14 @@ nav .social-icons {
     padding: 20px;
 }
 
+.latest-news .carousel-item{
+    height: 550px;
+    margin: auto;
+}
+
 .latest-news .carousel-item .d-block {
-    height: 400px;
-    width: 98%;
+    height: 100%;
+    width: 100%;
     margin: 0 auto;
     border-radius: 10px;
 }
@@ -238,6 +240,11 @@ footer li.social-icons {
 
     .statements p {
         text-align: center;
+    }
+
+    .latest-news .carousel-item{
+        height: 400px;
+        margin: auto;
     }
 
     .contact .container .row {
