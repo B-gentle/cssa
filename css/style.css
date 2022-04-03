@@ -134,10 +134,10 @@ nav .social-icons {
     padding: 20px;
 }
 
-//.latest-news .carousel-item{
- //   height: 550px;
-  //  margin: auto;
-//}
+.latest-news .carousel-item{
+   height: 550px;
+   //margin: auto;
+}
 
 //.latest-news .carousel-item .d-block {
   //  height: 100%;
