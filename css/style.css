@@ -245,10 +245,6 @@ footer li.social-icons {
     .latest-news .carousel-item{
        height: 300px;
     }
-    
-    .latest-news .carousel-item .d-block{
-        height: 100%;
-    }
 
     .contact .container .row {
         text-align: center;
