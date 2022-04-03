@@ -136,6 +136,7 @@ nav .social-icons {
 
 .latest-news .carousel-item{
    height: 550px;
+    border: 2px solid blue;
    //margin: auto;
 }
 
