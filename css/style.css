@@ -139,12 +139,12 @@ nav .social-icons {
    //margin: auto;
 }
 
-//.latest-news .carousel-item .d-block {
+.latest-news .carousel-item .d-block {
   //  height: 100%;
-   // width: 100%;
+    width: 100%;
    // margin: 0 auto;
-   // border-radius: 10px;
-//}
+    border-radius: 10px;
+}
 
 .latest-news .carousel-item h5,
 .carousel-item p {
