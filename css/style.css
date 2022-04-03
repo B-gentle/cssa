@@ -137,12 +137,10 @@ nav .social-icons {
 .latest-news .carousel-item{
    height: 550px;
     border: 2px solid blue;
-   //margin: auto;
 }
 
 .latest-news .carousel-item .d-block {
     width: 100%;
-   // margin: 0 auto;
     border-radius: 10px;
 }
 
@@ -243,7 +241,7 @@ footer li.social-icons {
     }
 
     .latest-news .carousel-item{
-       height: 300px;
+       height: 200px;
     }
 
     .contact .container .row {
