@@ -134,17 +134,17 @@ nav .social-icons {
     padding: 20px;
 }
 
-.latest-news .carousel-item{
-    height: 550px;
-    margin: auto;
-}
+//.latest-news .carousel-item{
+ //   height: 550px;
+  //  margin: auto;
+//}
 
-.latest-news .carousel-item .d-block {
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
-    border-radius: 10px;
-}
+//.latest-news .carousel-item .d-block {
+  //  height: 100%;
+   // width: 100%;
+   // margin: 0 auto;
+   // border-radius: 10px;
+//}
 
 .latest-news .carousel-item h5,
 .carousel-item p {
@@ -242,9 +242,9 @@ footer li.social-icons {
         text-align: center;
     }
 
-    .latest-news .carousel-item{
-       height: 300px;
-    }
+   // .latest-news .carousel-item{
+     //  height: 300px;
+   // }
 
     .contact .container .row {
         text-align: center;
