@@ -242,9 +242,9 @@ footer li.social-icons {
         text-align: center;
     }
 
-   // .latest-news .carousel-item{
-     //  height: 300px;
-   // }
+    .latest-news .carousel-item{
+       height: 300px;
+    }
 
     .contact .container .row {
         text-align: center;
