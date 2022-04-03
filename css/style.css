@@ -107,6 +107,14 @@ nav .social-icons {
     margin: 15px auto;
 }
 
+.statements-anthem .sub-list{
+    list-style-type: square;
+}
+
+.statements-anthem .sub-ol{
+    line-height: 3;
+}
+
 .anthem {
     padding: auto;
     background-color: #21AA93;
