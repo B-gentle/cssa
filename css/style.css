@@ -141,7 +141,6 @@ nav .social-icons {
 }
 
 .latest-news .carousel-item .d-block {
-  //  height: 100%;
     width: 100%;
    // margin: 0 auto;
     border-radius: 10px;
@@ -245,6 +244,10 @@ footer li.social-icons {
 
     .latest-news .carousel-item{
        height: 300px;
+    }
+    
+    .latest-news .carousel-item .d-block{
+        height: 100%;
     }
 
     .contact .container .row {
