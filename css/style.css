@@ -134,9 +134,8 @@ nav .social-icons {
     padding: 20px;
 }
 
-.latest-news .carousel-item{
-   height: 550px;
-    border: 2px solid blue;
+.latest-news .carousel-item {
+    height: 550px;
 }
 
 .latest-news .carousel-item .d-block {
@@ -150,7 +149,7 @@ nav .social-icons {
 }
 
 .contact {
-    margin-top: 50px;
+    margin-top: 30px;
     padding: 20px;
     font-family: railwaybold;
 }
@@ -240,8 +239,8 @@ footer li.social-icons {
         text-align: center;
     }
 
-    .latest-news .carousel-item{
-       height: 180px;
+    .latest-news .carousel-item {
+        height: 180px;
     }
 
     .contact .container .row {
